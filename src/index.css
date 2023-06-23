@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-moz-selection {
+    /* Code for Firefox */
+    background: #EF4613;
+}
+
+::selection {
+    background: #EF4613;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+.header-bg {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('./assets/landscape-main.jpg');
+    height: screen;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-bg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -2px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2) 1px, rgba(0, 0, 0, 0) 2px),
+        linear-gradient(to bottom, rgb(255, 255, 255, 0.2) 1px, rgba(0, 0, 0, 0) 2px);
+    background-size: 400px 246px;
+}
+
+.ampezzo {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05)), url('./assets/ampezzo.jpg');
+    width: 360px;
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ffestiniog {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05)), url('./assets/ffestiniog.jpg');
+    width: 360px;
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.indonesia {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05)), url('./assets/indonesia.jpg');
+    width: 360px;
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nepal {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05)), url('./assets/nepal.jpg');
+    width: 360px;
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.osterreich {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05)), url('./assets/osterreich.jpg');
+    width: 360px;
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yavirnyk {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05)), url('./assets/yavirnyk.jpg');
+    width: 360px;
+    height: 480px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax {
+    position: relative;
+}
+
+.parallax::after {
+    content: "";
+    background-image: url('./assets/parallax.jpg');
+    background-position: center;
+    filter: grayscale(100%);
+    opacity: 0.35;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.video-window {
+    background-image: url('./assets/video-path.jpg');
+    width: 600px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-1 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url('./assets/gallery-1.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.gallery-2 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url('./assets/gallery-2.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.gallery-3 {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url('./assets/gallery-3.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.gallery-1:hover {
+    background-size: 105%;
+}
+
+.gallery-2:hover {
+    background-size: 105%;
+}
+
+.gallery-3:hover {
+    background-size: 105%;
+}
