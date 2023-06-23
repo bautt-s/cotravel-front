@@ -45,7 +45,7 @@ const HeaderLandscape: React.FC = () => {
                 <div className="flex flex-col gap-y-[10px] z-50">
                     <span className="text-3xl font-semibold merriweather">01</span>
                     <h3 className="text-xl font-semibold">Choose place, activity and time</h3>
-                    <p className="text-lg w-[340px]">Everyone can choose a root and activity according to his taste and possibilities.</p>
+                    <p className="text-lg w-[340px]">Everyone can choose a route and activity according to his taste and possibilities.</p>
                 </div>
 
                 <div className="flex flex-col gap-y-[10px] ml-auto z-50">
