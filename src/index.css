@@ -23,6 +23,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .ampezzo {
@@ -87,6 +89,9 @@
     content: "";
     background-image: url('./assets/parallax.jpg');
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     filter: grayscale(100%);
     opacity: 0.35;
     top: 0;
@@ -99,8 +104,6 @@
 
 .video-window {
     background-image: url('./assets/video-path.jpg');
-    width: 600px;
-    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +111,6 @@
 
 .gallery-1 {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url('./assets/gallery-1.jpg');
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -117,7 +119,6 @@
 
 .gallery-2 {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url('./assets/gallery-2.jpg');
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -126,7 +127,6 @@
 
 .gallery-3 {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.05)), url('./assets/gallery-3.jpg');
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -155,6 +155,32 @@
         height: 100%;
         background-image: linear-gradient(to right, rgba(255, 255, 255, 0.2) 1px, rgba(0, 0, 0, 0) 2px),
             linear-gradient(to bottom, rgb(255, 255, 255, 0.2) 1px, rgba(0, 0, 0, 0) 2px);
-        background-size: 400px 246px;
+        background-size: 450px 246px;
+    }
+}
+
+@media (max-width: 640px) {
+    .gallery-1 {
+        background-size: cover;
+    }
+
+    .gallery-2 {
+        background-size: cover;
+    }
+
+    .gallery-3 {
+        background-size: cover;
+    }
+
+    .gallery-1:hover {
+        background-size: cover;
+    }
+
+    .gallery-2:hover {
+        background-size: cover;
+    }
+
+    .gallery-3:hover {
+        background-size: cover;
     }
 }

@@ -27,7 +27,7 @@ const HeaderLandscape: React.FC = () => {
                 <HiMenu className='flex md:hidden ml-auto text-4xl hover:text-[#f15221] z-50 transition-all duration-300' />
             </nav>
 
-            <div className="flex flex-col text-white md:ml-[80px] mt-[120px] xl:mt-[100px] text-center md:text-left items-center md:items-start">
+            <div className="flex flex-col text-white md:ml-[80px] mt-[120px] xl:mt-[120px] text-center md:text-left items-center md:items-start">
                 <h1 className="text-4xl md:text-6xl font-semibold max-w-[17ch] md:w-[640px] merriweather leading-[75px] z-50">
                     Explore the world with exciting people
                 </h1>
@@ -41,7 +41,7 @@ const HeaderLandscape: React.FC = () => {
                 </div>
             </div>
 
-            <div className="hidden flex-row text-white lg:px-[80px] xl:px-[120px] gap-x-auto lg:mt-[140px] xl:mt-[180px] lg:flex">
+            <div className="hidden flex-row text-white lg:px-[80px] xl:px-[120px] gap-x-auto lg:mt-[140px] xl:mt-[200px] lg:flex">
                 <div className="flex flex-col gap-y-[10px] z-50">
                     <span className="text-3xl font-semibold merriweather">01</span>
                     <h3 className="text-xl font-semibold">Choose place, activity and time</h3>
