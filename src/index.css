@@ -18,7 +18,6 @@
 }
 
 .header-bg {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('./assets/landscape-main.jpg');
     height: screen;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,8 +26,16 @@
     background-attachment: fixed;
 }
 
+.header-bg-light {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('./assets/landscape-main.jpg');
+}
+
+.header-bg-dark {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('./assets/landscape-main2.jpg');
+}
+
 .ampezzo {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05)), url('./assets/ampezzo.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url('./assets/ampezzo.jpg');
     width: 360px;
     height: 480px;
     background-position: center;
@@ -37,7 +44,7 @@
 }
 
 .ffestiniog {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05)), url('./assets/ffestiniog.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05)), url('./assets/ffestiniog.jpg');
     width: 360px;
     height: 480px;
     background-position: center;
@@ -46,7 +53,7 @@
 }
 
 .indonesia {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05)), url('./assets/indonesia.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.05)), url('./assets/indonesia.jpg');
     width: 360px;
     height: 480px;
     background-position: center;
@@ -55,7 +62,7 @@
 }
 
 .nepal {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05)), url('./assets/nepal.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.01)), url('./assets/nepal.jpg');
     width: 360px;
     height: 480px;
     background-position: center;
@@ -64,7 +71,7 @@
 }
 
 .osterreich {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05)), url('./assets/osterreich.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.01)), url('./assets/osterreich.jpg');
     width: 360px;
     height: 480px;
     background-position: center;
@@ -73,7 +80,7 @@
 }
 
 .yavirnyk {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.05)), url('./assets/yavirnyk.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.01)), url('./assets/yavirnyk.jpg');
     width: 360px;
     height: 480px;
     background-position: center;
