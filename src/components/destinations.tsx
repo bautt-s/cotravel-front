@@ -37,7 +37,7 @@ const DestinationsSection: React.FC = () => {
                 }}>
 
                 {destinations.map((d, index) =>
-                    <SwiperSlide key={index} className={`group  ${d.img !== 'indonesia' ? 'ml-[-125px] sm:ml-[0] xl:ml-[-15px]' : 'ml-0'} `}>
+                    <SwiperSlide key={index} className={`group  ${d.img !== 'indonesia' ? 'sm:ml-0 xl:ml-[-15px]' : 'ml-0'} `}>
                         <div className={`w-[360px] h-[480px] rounded-xl flex flex-col justify-end ${d.img} group-hover:h-[520px] 
                         transition-all duration-300 shadow-[0px_15px_20px_0px_rgba(0,0,0,0.15)] dark:shadow-[0px_15px_20px_0px_rgba(255,255,255,0.05)]`}>
                             <div className="text-center mb-[30px] text-white">

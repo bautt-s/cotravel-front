@@ -4,7 +4,7 @@ const GallerySection: React.FC = () => {
     return (
         <div className="flex flex-col px-[40px] lg:px-[80px] xl:px-[120px] py-[60px] lg:py-[120px] items-center dark:bg-[#131313]">
             <span className="text-[#f15221] dark:text-[#ff764d] font-bold text-lg">GALLERY OF OUR TRIPS</span>
-            <h1 className="merriweather text-4xl lg:text-5xl font-semibold mt-[10px] text-[#1a1a1a] dark:text-white">Completed journeys</h1>
+            <h1 className="merriweather text-4xl lg:text-5xl font-semibold mt-[10px] text-[#1a1a1a] dark:text-white text-center">Completed journeys</h1>
 
             <div className="w-full mt-[40px] text-white">
                 <section className="w-full h-[350px] lg:h-[400px] xl:h-[500px] rounded-2xl gallery-1 flex 
