@@ -13,7 +13,3 @@ The main dependencies are React 18.2, Tailwind 3.3.2, TypeScript 4.9.5, and some
 
 ## Credits
 All images that appear on the project are directly taken from [Unsplash](https://unsplash.com/).
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
